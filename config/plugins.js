@@ -48,8 +48,7 @@ module.exports = ({ env }) => ({
   "strapi-chatgpt": {
     enabled: true,
   },
-  
-  'drag-drop-content-types': {
+    'drag-drop-content-types': {
     enabled: true,
   },
   "firebase-auth": {
