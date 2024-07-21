@@ -63,5 +63,12 @@ module.exports = {
     enabled: true,
     resolve: "./src/plugins/strapi-plugin-ckeditor"
   },
+
+  {
+  // ...
+  'drag-drop-content-types': {
+    enabled: true
+  }
+},
 };
 
