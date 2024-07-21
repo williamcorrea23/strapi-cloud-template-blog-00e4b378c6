@@ -5,6 +5,7 @@ module.exports = ({ env }) => ({
   "strapi-html-editor": {
     enabled: true,
   },
+  
   "netlify-deployments": {
     enabled: true,
   },
