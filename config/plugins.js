@@ -70,4 +70,13 @@ module.exports = ({ env }) => ({
       // Configurações adicionais
     },
   },
+  'raw-query': {
+    enabled: true,
+  },
+  'plugin-sentry': {
+    enabled: true,
+  },
+  'strapi-chat-genius': {
+    enabled: true,
+  },
 });
