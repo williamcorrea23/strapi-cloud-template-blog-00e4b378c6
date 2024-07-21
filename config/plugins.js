@@ -52,6 +52,10 @@ module.exports = {
       API_TOKEN: '<your-open-ai-token>',
     },
   },
-  
+  {
+  // ...
+  "strapi-chatgpt": {
+    enabled: true,
+  },
 };
 
