@@ -48,9 +48,9 @@ module.exports = ({ env }) => ({
   "strapi-chatgpt": {
     enabled: true,
   },
-  ckeditor5: {
+  "ckeditor5": {
     enabled: true,
-    resolve: "./src/plugins/strapi-plugin-ckeditor"
+    resolve: "@strapi/plugin-ckeditor5",
   },
   'drag-drop-content-types': {
     enabled: true,
