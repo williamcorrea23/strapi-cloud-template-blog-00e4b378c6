@@ -15,31 +15,8 @@ module.exports = ({ env }) => ({
   "strapi-plugin-website-builder": {
     enabled: true,
   },
-  "vercel-deploy": {
-    enabled: true,
-    config: {
-      deployHook: env('VERCEL_DEPLOY_PLUGIN_HOOK'),
-      apiToken: env('VERCEL_DEPLOY_PLUGIN_API_TOKEN'),
-      appFilter: env('VERCEL_DEPLOY_PLUGIN_APP_FILTER'),
-      teamFilter: env('VERCEL_DEPLOY_PLUGIN_TEAM_FILTER'),
-      roles: ["strapi-super-admin"],
-    },
   },
-  'sitemap': {
-    enabled: true,
-    config: {
-      cron: '0 0 0 * * *',
-      limit: 45000,
-      xsl: true,
-      autoGenerate: false,
-      caching: true,
-      allowedFields: ['id', 'uid'],
-      excludedTypes: [],
-    },
-  },
-  "strapi-plugin-rest-cache": {
-    enabled: true,
-  },
+  
   'open-ai': {
     enabled: true,
     config: {
@@ -61,12 +38,7 @@ module.exports = ({ env }) => ({
   "strapi-plugin-graphs-builder": {
     enabled: true,
   },
-  'import-export-entries': {
-    enabled: true,
-    config: {
-      // Configurações adicionais
-    },
-  },
+ 
   'raw-query': {
     enabled: true,
   },
